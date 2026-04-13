@@ -1,0 +1,21 @@
+# Output directories (generated audio)
+output_*/
+
+# Input audio samples
+*.mp3
+*.wav
+
+# Text transcripts
+*.txt
+!spec_*.md
+
+# PitchFlower clone
+PitchFlower/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
